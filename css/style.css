@@ -20,6 +20,10 @@ h1 {
   font-size: 24px;
 }
 
+.displayBox {
+  box-shadow: 0 0 20px #e2e2e2;
+}
+
 header {
   padding-left: 10px;
   height: 100px;
@@ -161,9 +165,8 @@ header {
 #SectionHebergement {
   padding: 0px;
   background-color: white;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-flow: row wrap;
+  display: flex;
+  flex-direction: row;
 }
 
 #HebergementMarseille{
@@ -210,7 +213,7 @@ header {
 #BouttonHebergementAfficher {
   font-weight: bold;
   font-size: large;
-  background-color: #f2f2f2;
+  background-color: transparent;
   border: 0px;
   padding: 20px;
   margin: 20px;
@@ -220,12 +223,23 @@ header {
   cursor: pointer;
 }
 
+#HebergementPopulaire {
+  background-color: #f2f2f2;
+}
+
+#TitreHebergementPopulaire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .divHebergementPopulaire {
-  line-height: 0.2;
   margin-bottom: 20px;
   border-radius: 25px;
   background-color: white;
-  width: fit-content;
+  display: flex;
+  flex-direction: row;
 }
 
 .divHebergementPopulaire:hover {
@@ -236,14 +250,16 @@ header {
   padding: 15px;
   margin: 0px;
   padding-top: 0px;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .photoHebergementPopulaire {
   border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   padding: 5px;
-  width: 260px;
-  height: 125px;
+  width: 150px;
+  height: min-content;
   object-fit: cover;
 }
 
@@ -256,6 +272,12 @@ header {
   }
 
   #HebergementMarseille {
+    padding: 40px;
+    margin: 40px;
+    border-radius: 25px;
+  }
+
+  #HebergementPopulaire {
     padding: 40px;
     margin: 40px;
     border-radius: 25px;
@@ -333,7 +355,17 @@ header {
     flex-basis: 100%;
   }
 
+  #SectionHebergement {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
   #HebergementMarseille {
+    padding: 30px;
+    background-color: #ffffff;
+  }
+
+  #HebergementPopulaire {
     padding: 30px;
   }
 }
