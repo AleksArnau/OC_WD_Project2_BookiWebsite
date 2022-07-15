@@ -33,6 +33,7 @@ body {
   }
   .item:nth-child(3n) {
     background: silver;
+    width: 10px;
   }
   .container::before, .container::after {
     content: '';
