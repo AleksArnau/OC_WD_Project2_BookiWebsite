@@ -1,1 +1,13 @@
 https://stackoverflow.com/questions/29732575/how-to-specify-line-breaks-in-a-multi-line-flexbox-layout
+
+
+https://developer.mozilla.org/fr/docs/Web/CSS/flex
+
+11000011 11110011
+10110001 10011011
+10000110 01100000
+01100111 011-1100
+01010001 00101011
+10000101 00111110
+010
+ C3 F3 B1 9B 86 60 67 6C 51 2B 85 3E
