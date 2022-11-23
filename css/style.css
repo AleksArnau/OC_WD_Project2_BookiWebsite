@@ -25,6 +25,18 @@ h3 {
   margin-bottom: 0px;
 }
 
+.icon-blue {
+  color: #0065fc;
+}
+
+.star-active {
+  color: #0065fc;
+}
+
+.star-inactive {
+  color: lightgrey;
+}
+
 .displayBox {
   box-shadow: 0 0 20px #e2e2e2;
 }
@@ -298,6 +310,7 @@ textarea {
   box-shadow: 0 0 20px #0000002e;
   border-radius: 1rem;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .divActiviteNom {
@@ -305,6 +318,7 @@ textarea {
 }
 
 footer {
+  background-color: #f2f2f2;
   padding: 40px;
   display: flex;
   justify-content: flex-start;
@@ -557,7 +571,6 @@ ul {
   }
 
   footer {
-    background-color: #f2f2f2;
     padding: 5%;
     display: flex;
     justify-content: space-around;
